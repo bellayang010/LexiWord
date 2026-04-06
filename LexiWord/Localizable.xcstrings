@@ -1,0 +1,276 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "— %@" : {
+
+    },
+    "Aa" : {
+
+    },
+    "Add to Notebook" : {
+      "comment" : "Context menu action label — saves the tapped word and its sentence to the notebook",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add to Notebook"
+          }
+        }
+      }
+    },
+    "Camera" : {
+      "comment" : "Tab bar label, navigation title, and toolbar button label for the Camera/OCR screen",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera"
+          }
+        }
+      }
+    },
+    "Captured sentence" : {
+      "comment" : "Section label above the original OCR sentence shown in the word detail view",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Captured sentence"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "comment" : "Toolbar button that dismisses the language picker sheet without changing selection",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "comment" : "Accessibility label for the language picker toolbar button on the OCR screen",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        }
+      }
+    },
+    "No definition found." : {
+      "comment" : "Shown in word detail view when the system dictionary returns no result for the word",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No definition found."
+          }
+        }
+      }
+    },
+    "No results for \"%@\"." : {
+      "comment" : "Empty-state message shown when a notebook search returns no results. %@ is the search query entered by the user.",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No results for \"%@\"."
+          }
+        }
+      }
+    },
+    "No text found in this photo." : {
+      "comment" : "Toast message shown when OCR detects no text in the captured image",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No text found in this photo."
+          }
+        }
+      }
+    },
+    "No words saved yet.\nTap the camera to get started." : {
+      "comment" : "Body text of the empty-state view shown when the notebook has no saved entries",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No words saved yet.\nTap the camera to get started."
+          }
+        }
+      }
+    },
+    "No Words Yet" : {
+      "comment" : "Headline of the empty-state view shown when the notebook has no saved entries",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Words Yet"
+          }
+        }
+      }
+    },
+    "Notebook" : {
+      "comment" : "Tab bar label and navigation title for the Notebook screen",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notebook"
+          }
+        }
+      }
+    },
+    "OCR failed. Please try again." : {
+      "comment" : "Toast message shown when the OCR pipeline encounters an unexpected error",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OCR failed. Please try again."
+          }
+        }
+      }
+    },
+    "Remove" : {
+      "comment" : "Destructive button that deletes a notebook entry from the word detail screen",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove"
+          }
+        }
+      }
+    },
+    "Saved to notebook." : {
+      "comment" : "Toast message shown after a word is successfully saved to the notebook",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved to notebook."
+          }
+        }
+      }
+    },
+    "Search words" : {
+      "comment" : "Placeholder text inside the search bar on the Notebook screen",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search words"
+          }
+        }
+      }
+    },
+    "Study on Dictionary.com" : {
+      "comment" : "Button label that opens the word on dictionary.com in the device browser",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Study on Dictionary.com"
+          }
+        }
+      }
+    },
+    "Tap the camera icon to capture text" : {
+      "comment" : "Instructional placeholder shown on the OCR screen before the user captures a photo",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap the camera icon to capture text"
+          }
+        }
+      }
+    },
+    "Translate" : {
+      "comment" : "Context menu action label — translates the tapped word",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Translate"
+          }
+        }
+      }
+    },
+    "Translate to" : {
+      "comment" : "Navigation title of the language picker sheet",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Translate to"
+          }
+        }
+      }
+    },
+    "Translation failed. Please try again." : {
+      "comment" : "Toast message shown when translation encounters an unexpected session error",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Translation failed. Please try again."
+          }
+        }
+      }
+    },
+    "Translation unavailable for this language pair." : {
+      "comment" : "Toast message shown when the selected target language is not supported by the Translation framework",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Translation unavailable for this language pair."
+          }
+        }
+      }
+    },
+    "Underline" : {
+      "comment" : "Context menu action label — underlines the tapped word token in the OCR overlay",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underline"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

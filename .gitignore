@@ -1,0 +1,48 @@
+# Xcode
+*.xcuserstate
+*.xcuserdatad
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Build artifacts
+build/
+*.o
+*.d
+
+# Credentials — never commit these
+*.pem
+*.p12
+*.mobileprovision
+GoogleService-Info.plist
+
+# Unrelated files in this directory (BQ / analytics scripts)
+bq_creative_library_export.py
+creative_library_mcp.py
+creative_library_weekly_agent.md
+creative_report_team.json
+creative_report.json
+creative_report.md
+dashboard.html
+explore_bq_tables.py
+files.zip
+generate_dashboard.py
+generate_weekly_report.py
+inspect_creative_tables.py
+
+# Claude project config — local only
+.claude/
+CLAUDE.md
