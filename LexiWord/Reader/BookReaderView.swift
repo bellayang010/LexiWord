@@ -119,20 +119,22 @@ struct BookReaderView: View {
         ReaderFontSize(rawValue: fontSizeRaw)?.pointSize ?? 17
     }
 
-    /// Added between wrapped lines. fontSize × 0.82 ≈ 1.8× total line-height.
-    private var lineSpacing: CGFloat { fontSize * 0.82 }
+    /// Added between wrapped lines. fontSize × 0.6 ≈ 1.6× total line-height.
+    /// Kept smaller than a full em so wrapping feels like a real book, not a list.
+    private var lineSpacing: CGFloat { fontSize * 0.6 }
 
     var body: some View {
         ZStack(alignment: .topTrailing) {
 
             // ── Scrollable content ──────────────────────────────────────────
             ScrollView {
-                VStack(alignment: .leading, spacing: 16) {
+                VStack(alignment: .leading, spacing: 20) {
                     ForEach(page.paragraphs.indices, id: \.self) { pi in
                         paragraphView(paragraphIndex: pi, words: page.paragraphs[pi])
                     }
                 }
-                .padding(.horizontal, 24)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.horizontal, 20)
                 .padding(.top, 32)
                 .padding(.bottom, 48)
             }
@@ -204,7 +206,7 @@ struct BookReaderView: View {
     private func paragraphView(paragraphIndex: Int, words: [String]) -> some View {
         let sentence = words.joined(separator: " ")
 
-        FlowLayout(horizontalSpacing: 5, lineSpacing: lineSpacing) {
+        FlowLayout(horizontalSpacing: 4, lineSpacing: lineSpacing) {
             ForEach(words.indices, id: \.self) { wi in
                 let word = words[wi]
                 let sel = WordSelection(
@@ -217,9 +219,11 @@ struct BookReaderView: View {
 
                 Text(word)
                     .font(.custom("Georgia", size: fontSize))
-                    .foregroundStyle(.notionText)
-                    .padding(.horizontal, 2)
-                    .padding(.vertical, 2)
+                    .foregroundStyle(Color.notionText)
+                    // Minimal padding — just enough tap target, doesn't inflate spacing.
+                    .padding(.horizontal, 1)
+                    .padding(.vertical, 1)
+                    .fixedSize()    // measure at natural typographic width, not proposed
                     .background(
                         isSelected ? Color.notionSurface : Color.clear,
                         in: RoundedRectangle(cornerRadius: 4)
@@ -234,6 +238,7 @@ struct BookReaderView: View {
                     .animation(.easeOut(duration: 0.15), value: isSelected)
             }
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 
     // MARK: - Word sheet
