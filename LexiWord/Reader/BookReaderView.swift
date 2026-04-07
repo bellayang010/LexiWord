@@ -1,3 +1,7 @@
+// Updated: FlowLayout horizontalSpacing 5→4, word padding horizontal 2→1, lineSpacing
+// multiplier 0.82→0.6 (~1.6× line height), .fixedSize() on word tokens, horizontal
+// content padding 24→20pt. Fixes unnatural word spacing and right-side whitespace.
+
 import SwiftUI
 import SwiftData
 import Translation

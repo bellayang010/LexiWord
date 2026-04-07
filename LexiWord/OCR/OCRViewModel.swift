@@ -1,3 +1,7 @@
+// Updated: makePage() now clusters Vision observations by vertical midpoint (2% threshold),
+// sorts each line group left-to-right, joins across observation blocks, and detects paragraph
+// breaks at inter-line gaps > 1.5× average line height. Fixes truncated OCR text on curved pages.
+
 import Foundation
 import SwiftUI
 import SwiftData
