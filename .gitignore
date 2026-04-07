@@ -46,3 +46,6 @@ inspect_creative_tables.py
 # Claude project config — local only
 .claude/
 CLAUDE.md
+
+# Local docs folder (PRD, private notes)
+files/
